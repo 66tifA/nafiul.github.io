@@ -1,0 +1,87 @@
+.main-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.container-fluid {
+  padding: 0;
+  display: inline-block;
+}
+
+.row {
+  margin: 0;
+  display: inline-block;
+}
+
+.left-content,
+.right-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.thumb {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.inner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inner-content h4 {
+  font-size: 2em;
+  color: #fff;
+}
+
+.inner-content span {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.main-border-button a {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-content:hover {
+  opacity: 1;
+}
+
+.hover-content .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+#maps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
